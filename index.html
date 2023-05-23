@@ -97,7 +97,7 @@
       container: 'map', // container id
       style: 'mapbox://styles/mapbox/streets-v11', // YOUR TURN: choose a style: https://docs.mapbox.com/api/maps/#styles
       center: [-34.87811,-8.06421], // starting position [lng, lat]
-      zoom: 13,// starting zoom
+      zoom: 14,// starting zoom
       transformRequest: transformRequest
     });
 
@@ -114,8 +114,8 @@
 
       function makeGeoJSON(csvData) {
         csv2geojson.csv2geojson(csvData, {
-          latfield: 'latitude',
-          lonfield: 'longitude',
+          latfield: 'latitude_',
+          lonfield: 'longitude_',
           delimiter: ','
         }, function (err, data) {
           map.on('load', function () {
