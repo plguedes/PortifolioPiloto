@@ -143,25 +143,7 @@
               //set popup text
               //You can adjust the values of the popup to match the headers of your CSV.
               // For example: e.features[0].properties.Name is retrieving information from the field Name in the original CSV.
-              var description = `<h3>` + e.features[0].properties.DSQFL + `</h3>` +
-                  `<h4>` + `<b>` + `Bairro: ` + `</b>` + e.features[0].properties.Bairro + `</h4>` +
-                  `<h4>` + `<b>` + `Rua: ` + `</b>` + e.features[0].properties.Rua + `</h4>` +
-                  `<h4>` + `<b>` + `Número: ` + `</b>` + e.features[0].properties.Número + `</h4>` +
-                  `<h4>` + `<b>` + `Tipo de Empreendimento: ` + `</b>` + e.features[0].properties['Tipo de Empreendimento'] + `</h4>` +
-                  `<h4>` + `<b>` + `Área Total Construída: ` + `</b>` + e.features[0].properties['Area Total Construida'] + `</h4>` +
-                  `<h4>` + `<b>` + `Situação: ` + `</b>` + e.features[0].properties.Situação + `</h4>` +
-                  `<h4>` + `<b>` + `Restaurantes e Cafés: ` + `</b>` + e.features[0].properties['Restaurantes e cafés'] + `</h4>` +
-                  `<h4>` + `<b>` + `Nome Edifício: ` + `</b>` + e.features[0].properties['Nome Edifício'] + `</h4>` +
-                  `<h4>` + `<b>` + `Nº Pavimentos em Uso: ` + `</b>` + e.features[0].properties['Nº Pavimentos em Uso'] + `</h4>` +
-                  `<h4>` + `<b>` + `Disponibilidade: ` + `</b>` + e.features[0].properties.Disponibilidade + `</h4>` +
-                  `<h4>` + `<b>` + `Atividade de Funcionamento: ` + `</b>` + e.features[0].properties['Atividade de Funcionamento'] + `</h4>` +
-                  `<h4>` + `<b>` + `Grau de Risco: ` + `</b>` + e.features[0].properties['Grau de Risco'] + `</h4>` +
-                  `<h4>` + `<b>` + `Laudo: ` + `</b>` + e.features[0].properties.Laudo + `</h4>` +
-                  `<h4>` + `<b>` + `Acessibilidade: ` + `</b>` + e.features[0].properties.Acessibilidade + `</h4>` +
-                  `<h4>` + `<b>` + `Pichação: ` + `</b>` + e.features[0].properties.Pichação + `</h4>` +
-                  `<h4>` + `<b>` + `Observações: ` + `</b>` + e.features[0].properties.Observações + `</h4>` +
-                  `<h4>` + `<b>` + `Proprietário Localizado: ` + `</b>` + e.features[0].properties['Proprietário Localizado'] + `</h4>` +
-                  `<h4>` + `<b>` + `Investimento: ` + `</b>` + e.features[0].
+              var description = `<h3>` + e.features[0].properties.DSQFL + `</h3>` + `<h4>` + `<b>` + `Bairro: ` + `</b>` + e.features[0].properties.Bairro + `</h4>` + `<h4>` + `<b>` + `Rua: ` + `</b>` + e.features[0].properties.Rua + `</h4>` + `<h4>` + `<b>` + `Número: ` + `</b>` + e.features[0].properties.Número + `</h4>` + `<h4>` + `<b>` + `Tipo de Empreendimento: ` + `</b>` + e.features[0].properties['Tipo de Empreendimento'] + `</h4>` + `<h4>` + `<b>` + `Área Total Construída: ` + `</b>` + e.features[0].properties['Area Total Construida'] + `</h4>` + `<h4>` + `<b>` + `Situação: ` + `</b>` + e.features[0].properties.Situação + `</h4>` + `<h4>` + `<b>` + `Restaurantes e Cafés: ` + `</b>` + e.features[0].properties['Restaurantes e cafés'] + `</h4>` + `<h4>` + `<b>` + `Nome Edifício: ` + `</b>` + e.features[0].properties['Nome Edifício'] + `</h4>` + `<h4>` + `<b>` + `Nº Pavimentos em Uso: ` + `</b>` + e.features[0].properties['Nº Pavimentos em Uso'] + `</h4>` + `<h4>` + `<b>` + `Disponibilidade: ` + `</b>` + e.features[0].properties.Disponibilidade + `</h4>` + `<h4>` + `<b>` + `Atividade de Funcionamento: ` + `</b>` + e.features[0].properties['Atividade de Funcionamento'] + `</h4>` + `<h4>` + `<b>` + `Grau de Risco: ` + `</b>` + e.features[0].properties['Grau de Risco'] + `</h4>` + `<h4>` + `<b>` + `Laudo: ` + `</b>` + e.features[0].properties.Laudo + `</h4>` + `<h4>` + `<b>` + `Acessibilidade: ` + `</b>` + e.features[0].properties.Acessibilidade + `</h4>` + `<h4>` + `<b>` + `Pichação: ` + `</b>` + e.features[0].properties.Pichação + `</h4>` + `<h4>` + `<b>` + `Observações: ` + `</b>` + e.features[0].properties.Observações + `</h4>` + `<h4>` + `<b>` + `Proprietário Localizado: ` + `</b>` + e.features[0].properties['Proprietário Localizado'] + `</h4>` + `<h4>` + `<b>` + `Investimento: ` + `</b>` + e.features[0].
 
               // Ensure that if the map is zoomed out such that multiple
               // copies of the feature are visible, the popup appears
